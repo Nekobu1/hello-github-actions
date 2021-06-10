@@ -1,8 +1,9 @@
+name: Testing
+on: push
 jobs:
   build:
     name: Hello world action
     runs-on: ubuntu-latest
-    on: push
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
