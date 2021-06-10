@@ -2,6 +2,8 @@ name: "Hello Actions"
 description: "Greet someone"
 author: "me@github.com"
 
+on: push
+
 inputs:
   MY_NAME:
     description: "Who to greet"
